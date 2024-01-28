@@ -43,8 +43,8 @@ router.get('/:id', async (req, res) => {
         },
         {
           model: Tag,
-          through: { attributes: [] }, // This will skip the product-tag relation table data
-          attributes: ['tag_name'],
+          through: { attributes: [] }, 
+          attributes: ['tag_name'], 
         },
       ],
     });
