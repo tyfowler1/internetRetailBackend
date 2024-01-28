@@ -82,7 +82,7 @@ router.put('/:id', async (req, res) => {
   }
 });
 
-const { Tag } = require('../models');
+
 
 router.delete('/:id', async (req, res) => {
   try {
